@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/HelveticaMedium.woff') format('truetype');
+  src: url('./assets/fonts/HelveticaMedium.woff') format('opentype');
+}
+@font-face {
+  font-family: 'Helvetica Neue Light';
+  src: url('./assets/fonts/HelveticaLight.woff') format('truetype');
+  src: url('./assets/fonts/HelveticaLight.woff') format('opentype');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Thin';
+  src: url('./assets/fonts/Helvetica25UltraLight_22433.ttf') format('truetype');
+  src: url('./assets/fonts/Helvetica25UltraLight_22433.ttf') format('opentype');
+}
+
+:root {
+  --default-font: 'Helvetica Neue', sans-serif;
+  --helvetica-light: 'Helevetica Neue Light', sans-serif;
+  --helvetica-thin: 'Helvetica Neue Thin', sans-serif;
+  --primary-btn-background: #3bab59;
+  --primary-btn-color: #fff;
+  --default-line-height: 50px;
+  --off-white: #f5f9e7;
+  --green: #3aab58;
+  --grey: #f9f9f9;
+}
