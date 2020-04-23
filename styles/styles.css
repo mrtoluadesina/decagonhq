@@ -85,6 +85,9 @@ ul {
   justify-content: center;
   align-items: center;
 }
+.main-header .header-brand-nav .brand img {
+  height: auto;
+}
 .main-header .header-brand-nav nav {
   display: flex;
   justify-content: center;
