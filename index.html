@@ -6,9 +6,46 @@
     <title>Hire software engineering talent | Decagonhq.com</title>
 
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./styles//constants.css" />
+    <link rel="stylesheet" type="text/css" href="./styles//normalize.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css"
+    />
   </head>
   <body>
+    <div id="get-in-touch">
+      <div class="form-header">
+        <img
+          src="./assets/images/logo-light.webp"
+          alt="Decagonhq"
+          class="header-logo"
+        />
+        <p><i class="mdi mdi-close"></i></p>
+      </div>
+      <div class="align-form">
+        <h1>Get in <span>touch</span>.</h1>
+        <p>
+          Tell us what you are looking to do.<br />
+          We’ll follow up in one business day.
+        </p>
+        <div class="form-area">
+          <form id="contact-form">
+            <input type="text" placeholder="Full name" />
+            <input type="email" placeholder="Work mail" />
+            <input type="phonenumber" placeholder="Phone number" />
+            <textarea placeholder="Briefly describe project" rows="10">
+            </textarea>
+            <div class="submit-area">
+              <div class="form-group">
+                <input type="checkbox" id="html" />
+                <label for="html">Request NDA</label>
+              </div>
+              <button>Send enquiry →</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <header class="main-header">
       <div class="header-brand-nav">
         <div class="container">
@@ -22,13 +59,13 @@
           <nav>
             <div class="mobile-nav"></div>
             <ul class="main-nav web-nav">
-              <li><a href="/">Project</a></li>
-              <li><a href="/">Capabilities</a></li>
-              <li><a href="/">FAQ</a></li>
+              <!-- <li><a href="projects.html">Project</a></li> -->
+              <li><a href="services.html">Capabilities</a></li>
+              <li><a href="faq.html">FAQ</a></li>
               <li><a href="/">About us</a></li>
               <li><a href="/">Blog</a></li>
             </ul>
-            <a href="/" class="link-btn web-nav">Contact us</a>
+            <a href="/" class="link-btn web-nav" id="contact-btn">Contact us</a>
           </nav>
         </div>
       </div>
@@ -74,7 +111,10 @@
             </p>
           </div>
           <div class="banner">
-            <img src="./assets/images/indeedXdecagon.png" alt="indeed at decagon 2020" />
+            <img
+              src="./assets/images/indeedXdecagon.png"
+              alt="indeed at decagon 2020"
+            />
           </div>
         </div>
       </section>

@@ -21,3 +21,13 @@ function videoPlay(wrapper) {
   // подставляем в src параметр из data
   iframe.attr('src', src);
 }
+
+$(document).ready(function () {
+  $('#contact-btn').on('click', function (e) {
+    e.preventDefault();
+    $('#get-in-touch').fadeIn();
+  });
+  $('#get-in-touch .form-header p').on('click', function () {
+    $('#get-in-touch').fadeOut();
+  });
+});
